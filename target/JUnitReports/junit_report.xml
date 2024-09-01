@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.292" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Add product to cart on Flipkart" name="Add a product to cart after searching" time="13.118">
+<system-out><![CDATA[
+Given User is on flipkart home page.........................................passed
+When User searchs for "mixer grinder bajaj".................................passed
+And User select the first product from the search result....................passed
+And User adding the product to the cart.....................................passed
+And Product should successfully added to the cart...........................passed
+Then Display Number of Products in Cart.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
